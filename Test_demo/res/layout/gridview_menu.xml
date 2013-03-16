@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <!-- 每列4个，整个GridView高10dip，长14dip -->
+    <GridView 
+        android:id="@+id/gridview"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:numColumns="4"
+        android:verticalSpacing="10dip"
+        android:horizontalSpacing="14dip"
+        android:stretchMode="columnWidth"
+        android:gravity="center"></GridView><!-- 位于中央 -->
+    
+
+</LinearLayout>
